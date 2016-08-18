@@ -1,0 +1,9 @@
+
+
+Adding new instance types?:
+inspiration:
+https://github.com/rapid7/asgard/commit/f57bd1648df2dfa0bdba27b9ea5ebbe4794b9bb7
+
+the following files needs changes:
+grails-app/services/com/netflix/asgard/InstanceTypeService.groovy
+src/groovy/com/netflix/asgard/model/InstanceType.groovy
